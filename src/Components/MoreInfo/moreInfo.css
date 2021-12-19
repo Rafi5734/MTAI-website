@@ -1,0 +1,14 @@
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 450px) {
+    .moreInfo-main {
+        margin-top: 420px;
+    }
+    .info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

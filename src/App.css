@@ -1,0 +1,16 @@
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000;
+    font-family: "Courier New", Courier, monospace;
+}
+.links:hover {
+    border-bottom: 2px solid #000;
+}
+.nav-btn {
+    font-family: "Courier New", Courier, monospace;
+}
+.nav-logo {
+    width: 150px;
+}

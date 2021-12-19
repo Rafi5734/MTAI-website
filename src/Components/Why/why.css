@@ -1,0 +1,18 @@
+.why-main {
+    width: 100%;
+    height: 80vh;
+}
+.why-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 480px) {
+    .why-main {
+        margin-bottom: 100px;
+    }
+    .why-cols {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

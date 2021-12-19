@@ -1,0 +1,23 @@
+.connect-main {
+    width: 100%;
+    height: 70vh;
+    background-color: #fcf7f4;
+    /* overflow: hidden; */
+}
+.connect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+}
+.connect-img {
+    margin-bottom: -100px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    .connect {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 100px;
+    }
+}

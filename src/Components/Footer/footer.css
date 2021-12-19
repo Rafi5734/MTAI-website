@@ -1,0 +1,32 @@
+.footer-main {
+    background-color: #323232;
+    color: #fff;
+    height: 50vh;
+}
+.footer-sub {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.all-social {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.all-social i {
+    cursor: pointer;
+    background-color: #5b5b5b;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-main {
+        background-color: #323232;
+        color: #fff;
+        height: 180vh;
+    }
+    .footer-sub {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
