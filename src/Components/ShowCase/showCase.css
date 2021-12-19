@@ -1,0 +1,25 @@
+.showCase-main {
+    height: 250vh;
+    /* overflow: hidden; */
+}
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 480px) {
+    .showCase-main {
+        width: 100%;
+        height: 250vh;
+        /* overflow: hidden; */
+    }
+    .cards {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 100px;
+    }
+}
