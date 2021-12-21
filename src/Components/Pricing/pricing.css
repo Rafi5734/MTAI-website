@@ -9,3 +9,10 @@
     align-items: center;
     flex-direction: column;
 }
+@media only screen and (max-width: 480px) {
+    .main-price {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+}

@@ -8,6 +8,7 @@ const Pricing = () => {
     const [checked, setChecked] = React.useState(true);
 
     const handleChange = (event) => {
+        event.preventDefault();
         setChecked(event.target.checked);
     };
     return (
@@ -45,7 +46,7 @@ const Pricing = () => {
                             }}
                         >
                             <div>
-                                <Card style={{ width: "30rem" }}>
+                                <Card style={{ width: "24rem" }}>
                                     <Card.Body>
                                         <Card.Title
                                             className="text-center"
@@ -225,7 +226,7 @@ const Pricing = () => {
                             {/* pricing system 1 end and pricing system 2 started */}
 
                             <div>
-                                <Card style={{ width: "30rem" }}>
+                                <Card style={{ width: "24rem" }}>
                                     <Card.Body>
                                         <Card.Title
                                             className="text-center"

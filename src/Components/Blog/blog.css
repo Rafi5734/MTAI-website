@@ -1,0 +1,29 @@
+.blog-main {
+    height: 160vh;
+}
+.banner-main {
+    background-color: black;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 40vh;
+}
+.all-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 480px) {
+    .blog-main {
+        height: 260vh;
+    }
+    .all-blogs {
+        height: 300vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

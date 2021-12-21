@@ -11,7 +11,7 @@ const ButtonLoading = ({ checked, handleChange }) => {
     //     setChecked(event.target.checked);
     // };
     return (
-        <div className="loading-btn">
+        <div className="loading-btn mt-5">
             {checked ? (
                 <div>
                     <p
@@ -45,7 +45,7 @@ const ButtonLoading = ({ checked, handleChange }) => {
                 </div>
             )}
             <Switch
-                // checked={checked}
+                checked={checked}
                 onChange={handleChange}
                 inputProps={{ "aria-label": "controlled" }}
                 className="control-btn"
