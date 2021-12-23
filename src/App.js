@@ -6,7 +6,6 @@ import Templates from "./Components/Templates/Templates";
 import ShowCase from "./Components/ShowCase/ShowCase";
 import Pricing from "./Components/Pricing/Pricing";
 import Blog from "./Components/Blog/Blog";
-import Help from "./Components/Help/Help";
 import {
     Container,
     Form,
@@ -52,9 +51,9 @@ function App() {
                             <Link to="/blog" className="links me-5">
                                 Blog
                             </Link>
-                            <Link to="/help" className="links me-5">
+                            {/* <Link to="/help" className="links me-5">
                                 Help
-                            </Link>
+                            </Link> */}
                         </Nav>
 
                         <Button variant="outline-success" className="nav-btn">
@@ -70,7 +69,6 @@ function App() {
                 <Route path="/showcase" element={<ShowCase />} />
                 <Route path="/pricing" element={<Pricing />} />
                 <Route path="/blog" element={<Blog />} />
-                <Route path="/help" element={<Help />} />
             </Routes>
         </BrowserRouter>
     );
