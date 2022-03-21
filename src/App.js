@@ -26,6 +26,7 @@ function App() {
                             <img
                                 src={Logo}
                                 className="img-fluid nav-logo"
+                                alt="nav-logo"
                             ></img>
                         </Navbar.Brand>
                     </Link>
